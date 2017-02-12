@@ -1,1 +1,291 @@
-<h1>Hello world!</h1>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Anacoinda - daily Localbitcoins statistics - dashboard</title>
+
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+        <!-- Optional theme -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+        <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    </head>
+    <body>
+      <h1>Localbitcoins statistics for the past 24 hours (at 2017-2-12 19:00 CET)</h1>
+      <samp>
+        [
+    {
+        "currency": "RUB", 
+        "volume-btc": 644.1544000000015, 
+        "volume-local": 39211237.59945392, 
+        "transactions": 5184
+    }, 
+    {
+        "currency": "USD", 
+        "volume-btc": 401.2228000000001, 
+        "volume-local": 489841.2438229991, 
+        "transactions": 2409
+    }, 
+    {
+        "currency": "GBP", 
+        "volume-btc": 191.64399999999978, 
+        "volume-local": 155638.81852300002, 
+        "transactions": 669
+    }, 
+    {
+        "currency": "NGN", 
+        "volume-btc": 151.34369999999998, 
+        "volume-local": 75378151.70780598, 
+        "transactions": 466
+    }, 
+    {
+        "currency": "VEF", 
+        "volume-btc": 32.751200000000026, 
+        "volume-local": 117013704.27130803, 
+        "transactions": 407
+    }, 
+    {
+        "currency": "CNY", 
+        "volume-btc": 327.12109999999984, 
+        "volume-local": 2353052.0460100025, 
+        "transactions": 260
+    }, 
+    {
+        "currency": "SEK", 
+        "volume-btc": 28.784600000000015, 
+        "volume-local": 266765.03288699995, 
+        "transactions": 180
+    }, 
+    {
+        "currency": "EUR", 
+        "volume-btc": 60.91369999999997, 
+        "volume-local": 57962.683548999994, 
+        "transactions": 156
+    }, 
+    {
+        "currency": "AUD", 
+        "volume-btc": 75.76580000000001, 
+        "volume-local": 105919.72317999994, 
+        "transactions": 149
+    }, 
+    {
+        "currency": "INR", 
+        "volume-btc": 18.028099999999995, 
+        "volume-local": 1264752.61849, 
+        "transactions": 122
+    }, 
+    {
+        "currency": "ZAR", 
+        "volume-btc": 45.82519999999999, 
+        "volume-local": 664580.605831, 
+        "transactions": 76
+    }, 
+    {
+        "currency": "KES", 
+        "volume-btc": 6.321900000000001, 
+        "volume-local": 659889.4655910002, 
+        "transactions": 75
+    }, 
+    {
+        "currency": "MYR", 
+        "volume-btc": 28.16670000000001, 
+        "volume-local": 128251.46793299996, 
+        "transactions": 65
+    }, 
+    {
+        "currency": "CAD", 
+        "volume-btc": 14.9549, 
+        "volume-local": 22461.304631000003, 
+        "transactions": 60
+    }, 
+    {
+        "currency": "THB", 
+        "volume-btc": 33.0053, 
+        "volume-local": 1145156.6482119998, 
+        "transactions": 59
+    }, 
+    {
+        "currency": "MXN", 
+        "volume-btc": 2.8289999999999997, 
+        "volume-local": 62898.99581899999, 
+        "transactions": 39
+    }, 
+    {
+        "currency": "NZD", 
+        "volume-btc": 8.0335, 
+        "volume-local": 11849.912930999999, 
+        "transactions": 28
+    }, 
+    {
+        "currency": "UAH", 
+        "volume-btc": 1.8251000000000002, 
+        "volume-local": 49088.431054999994, 
+        "transactions": 28
+    }, 
+    {
+        "currency": "PKR", 
+        "volume-btc": 3.363, 
+        "volume-local": 356259.1185010001, 
+        "transactions": 25
+    }, 
+    {
+        "currency": "COP", 
+        "volume-btc": 6.5838, 
+        "volume-local": 18899746.110296, 
+        "transactions": 24
+    }, 
+    {
+        "currency": "TRY", 
+        "volume-btc": 10.3566, 
+        "volume-local": 38505.29297, 
+        "transactions": 22
+    }, 
+    {
+        "currency": "RON", 
+        "volume-btc": 7.443199999999999, 
+        "volume-local": 31176.598176000007, 
+        "transactions": 17
+    }, 
+    {
+        "currency": "BRL", 
+        "volume-btc": 1.1872, 
+        "volume-local": 3776.379477, 
+        "transactions": 16
+    }, 
+    {
+        "currency": "CLP", 
+        "volume-btc": 4.0321, 
+        "volume-local": 2789248.083357, 
+        "transactions": 15
+    }, 
+    {
+        "currency": "DKK", 
+        "volume-btc": 2.2297999999999996, 
+        "volume-local": 15046.721547000001, 
+        "transactions": 13
+    }, 
+    {
+        "currency": "SAR", 
+        "volume-btc": 1.8739999999999997, 
+        "volume-local": 7412.737816000001, 
+        "transactions": 13
+    }, 
+    {
+        "currency": "TZS", 
+        "volume-btc": 1.8708, 
+        "volume-local": 4269604.59258, 
+        "transactions": 11
+    }, 
+    {
+        "currency": "HKD", 
+        "volume-btc": 2.8402, 
+        "volume-local": 22115.839438, 
+        "transactions": 8
+    }, 
+    {
+        "currency": "ARS", 
+        "volume-btc": 0.7458, 
+        "volume-local": 12376.72856, 
+        "transactions": 7
+    }, 
+    {
+        "currency": "NOK", 
+        "volume-btc": 2.99, 
+        "volume-local": 26079.560534000004, 
+        "transactions": 7
+    }, 
+    {
+        "currency": "CZK", 
+        "volume-btc": 1.7403, 
+        "volume-local": 43127.865052, 
+        "transactions": 6
+    }, 
+    {
+        "currency": "AED", 
+        "volume-btc": 3.9187000000000003, 
+        "volume-local": 15070.52194, 
+        "transactions": 5
+    }, 
+    {
+        "currency": "HRK", 
+        "volume-btc": 0.4223, 
+        "volume-local": 2853.060363, 
+        "transactions": 5
+    }, 
+    {
+        "currency": "MAD", 
+        "volume-btc": 0.7521000000000001, 
+        "volume-local": 8256.073166999999, 
+        "transactions": 5
+    }, 
+    {
+        "currency": "PEN", 
+        "volume-btc": 0.6616, 
+        "volume-local": 2322.809239, 
+        "transactions": 5
+    }, 
+    {
+        "currency": "IRR", 
+        "volume-btc": 0.6967, 
+        "volume-local": 26324454.217277996, 
+        "transactions": 3
+    }, 
+    {
+        "currency": "SGD", 
+        "volume-btc": 1.6816, 
+        "volume-local": 2479.9965380000003, 
+        "transactions": 3
+    }, 
+    {
+        "currency": "CHF", 
+        "volume-btc": 0.216, 
+        "volume-local": 244.999156, 
+        "transactions": 2
+    }, 
+    {
+        "currency": "EGP", 
+        "volume-btc": 18.781799999999997, 
+        "volume-local": 398754.195722, 
+        "transactions": 2
+    }, 
+    {
+        "currency": "HUF", 
+        "volume-btc": 0.0629, 
+        "volume-local": 19758.78993, 
+        "transactions": 2
+    }, 
+    {
+        "currency": "IDR", 
+        "volume-btc": 3.8573000000000004, 
+        "volume-local": 46572199.987167, 
+        "transactions": 2
+    }, 
+    {
+        "currency": "PLN", 
+        "volume-btc": 0.1904, 
+        "volume-local": 820.000224, 
+        "transactions": 2
+    }, 
+    {
+        "currency": "JPY", 
+        "volume-btc": 0.1, 
+        "volume-local": 13568.7, 
+        "transactions": 1
+    }, 
+    {
+        "currency": "KZT", 
+        "volume-btc": 0.3208, 
+        "volume-local": 100000.00056, 
+        "transactions": 1
+    }
+]
+      </samp>
+    </body>
+</html>
